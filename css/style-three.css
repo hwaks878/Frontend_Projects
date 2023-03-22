@@ -25,6 +25,10 @@ body {
 }
 .icon-car {
   width: 80px;
+  opacity: 0.5;
+}
+.icon-car:hover {
+  opacity: 1;
 }
 .sedan {
   border-top-left-radius: 15px;
