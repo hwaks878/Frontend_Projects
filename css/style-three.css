@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  background-color: rgb(175, 175, 84);
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.sedan,
+.suv,
+.luxury {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  padding: 55px;
+  color: #fff;
+}
+.icon-car {
+  width: 80px;
+}
+.sedan {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: rgb(214, 149, 28);
+}
+.suv {
+  background-color: #335861;
+}
+.luxury {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(6, 65, 6);
+}
+.describe-text {
+  /* border: 2px solid red; */
+  padding-bottom: 20px;
+  max-width: 85%;
+}
+.link-btn {
+  padding: 15px 40px;
+  border-radius: 25px;
+  background-color: #fff;
+  text-decoration: none;
+}
+.btn-sedan {
+  color: rgb(214, 149, 28);
+}
+.btn-suv {
+  color: #335861;
+}
+.btn-luxury {
+  color: rgb(6, 65, 6);
+}
+
+@media screen and (min-width: 1100px) {
+  .d-flex {
+    display: flex;
+    justify-content: center;
+  }
+  .sedan {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .luxury {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  .describe-text {
+    max-width: 285px;
+  }
+}
